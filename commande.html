@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Probeats — Commande</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/assets/images/logos/favicon/fonts/Barlow-Bold.ttf">
+  <link rel="stylesheet" href="css/assets/images/logos/favicon/fonts/Barlow-Italic.ttf">
+  <link rel="stylesheet" href="css/assets/images/logos/favicon/fonts/Barlow-Regular.ttf">
+  <link rel="stylesheet" href="css/assets/images/logos/favicon/fonts/Barlow-Thin.ttf">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><img src="css/assets/images/logos/probeats-logo.png" alt="Probeats"></a>
+    <nav class="main-nav"><a href="index.html">Produits</a><a href="apropos.html">À propos</a><a href="assistance.html">Assistance</a></nav>
+    <a class="cta" href="#">Connexion</a>
+  </div>
+</header>
+
+<main class="container content-block">
+  <h1>Récapitulatif de la commande</h1>
+  <section class="order-summary">
+    <div class="summary-left">
+      <h2>Articles</h2>
+      <div style="display:flex;gap:12px;align-items:center;margin-bottom:12px">
+        <img src="css/assets/images/casque.png" alt="Casque" style="width:96px;height:96px;object-fit:cover;border-radius:8px">
+        <div><h3>Casque Probeats</h3><p>Quantité: 1 • Prix: €199</p></div>
+      </div>
+      <p><strong>Total : €199</strong></p>
+    </div>
+
+    <aside class="summary-right">
+      <h2>Livraison & Paiement</h2>
+      <form class="checkout-form" onsubmit="alert('Formulaire simulé — pas de paiement réel');return false;">
+        <label>Nom complet<input required type="text"></label>
+        <label>Adresse<input required type="text"></label>
+        <label>Ville<input required type="text"></label>
+        <label>Code postal<input required type="text"></label>
+
+        <h3>Paiement</h3>
+        <label>Numéro de carte<input required type="text"></label>
+        <label>Expiration<input required type="text"></label>
+        <label>CVC<input required type="text"></label>
+
+        <button class="btn btn-primary" type="submit">Payer €199</button>
+      </form>
+    </aside>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-left"><img src="css/assets/images/logos/logo.png" alt="Logo"></div>
+    <div class="footer-nav"><a href="index.html">Accueil</a><a href="produit.html">Produits</a></div>
+    <div class="footer-contact"><p>contact@probeats.example</p></div>
+  </div>
+</footer>
+</body>
+</html>
