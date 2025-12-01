@@ -6,7 +6,7 @@ Livrable : maquette Figma (.fig) + site statique (5 pages) pour la présentation
 - `figma/probeats-maquette.fig` — maquette Figma (Desktop + Mobile) incluant : Accueil, Produit, Commande, À propos, Assistance, styles & composants.
 - `index.html`, `produit.html`, `commande.html`, `apropos.html`, `assistance.html`
 - `css/styles.css`
-- `assets/` — images, logos, favicon, fonts, icons
+- `assets/images/logos/favicon/fonts`
 
 ## Consignes respectées
 - Visuels **pleine page** sur les maquettes.
