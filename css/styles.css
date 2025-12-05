@@ -46,12 +46,12 @@
    2. VARIABLES GLOBALES
 ------------------------------ */
 :root {
-  --bg: #ffffff;
-  --primary: #1F3B8A;
-  --accent: #8844CC;
-  --muted: #6B6B6B;
-  --surface: #F7F7FB;
-  --text: #222222;
+  --bg: #ffffff;/* rgb(255, 255, 255)*/
+  --primary: #009099;/* rgb(0, 144, 153)*/
+  --accent: #41B4BB;/* rgb(65, 180, 187)*/
+  --muted: #7EDCE1;/* rgb(126, 220, 225)*/
+  --surface: #ffffff;/* rgb(255, 255, 255)*/
+  --text: #292A2D;/* RGB(41, 42, 45)*/
 
   --padding-block: 24px;
   --max-width: 1200px;
@@ -117,7 +117,7 @@ em,i {
   z-index: 100;
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ffffff;/* rgb(255, 255, 255)*/
 }
 
 .header-inner {
@@ -161,7 +161,7 @@ em,i {
 
 .btn-primary {
   background: var(--accent);
-  color: white;
+  color: #ffffff;/* rgb(255, 255, 255)*/
 }
 
 /* -----------------------------
@@ -172,7 +172,7 @@ em,i {
   min-height: 100vh;
   background-size: cover;
   background-position: center;
-  color: white;
+  color: #ffffff;/* rgb(255, 255, 255)*/
   display: flex;
   align-items: center;
 }
@@ -235,7 +235,7 @@ em,i {
 }
 
 .product-info {
-  background: white;
+  background: #ffffff;/* rgb(255, 255, 255)*/
   padding: 24px;
   border-radius: 10px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.05);
@@ -267,7 +267,7 @@ em,i {
   width: 100%;
   padding: 10px;
   border-radius: 6px;
-  border: 1px solid #eaeaea;
+  border: 1px solid #ffffff;/* rgb(255, 255, 255)*/
 }
 
 /* -----------------------------
@@ -276,7 +276,7 @@ em,i {
 
 .site-footer {
   background: var(--primary);
-  color: white;
+  color: #ffffff;/* rgb(255, 255, 255)*/
   padding: 40px 0;
   margin-top: 40px;
 }
@@ -289,7 +289,7 @@ em,i {
 
 .footer-nav a {
   display: block;
-  color: #ffffffcc;
+  color: #ffffff;/* rgb(255, 255, 255)*/
   text-decoration: none;
   margin-bottom: 8px;
 }
