@@ -18,24 +18,21 @@
 <main class="container content-block">
   <h1>Assistance</h1>
 
-  <section style="margin-bottom:24px">
+  <section class="section-mb-24">
     <h2>Nos services</h2>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
-      <div class="content-block" style="background:#fff;border-radius:8px">Support technique</div>
-      <div class="content-block" style="background:#fff;border-radius:8px">Garantie & Retours</div>
-      <div class="content-block" style="background:#fff;border-radius:8px">Documentation</div>
+    <div class="assistance-grid">
+      <div class="content-block assistance-card">Support technique</div>
+      <div class="content-block assistance-card">Garantie & Retours</div>
+      <div class="content-block assistance-card">Documentation</div>
     </div>
-  </section>
-
-  <section style="margin-bottom:24px">
     <h2>FAQ</h2>
-    <details style="margin-bottom:12px"><summary>Comment retourner un produit ?</summary><p>Lorem ipsum dolor sit amet.</p></details>
-    <details style="margin-bottom:12px"><summary>Durée de la garantie ?</summary><p>Deux ans.</p></details>
+    <details class="faq-item"><summary>Comment retourner un produit ?</summary><p>Lorem ipsum dolor sit amet.</p></details>
+    <details class="faq-item"><summary>Durée de la garantie ?</summary><p>Deux ans.</p></details>
   </section>
 
   <section>
     <h2>Contact</h2>
-    <form style="max-width:480px;display:grid;gap:12px" onsubmit="alert('Message envoyé (simulation)');return false;">
+    <form class="contact-form"> 
       <label>Nom<input required type="text"></label>
       <label>Email<input required type="email"></label>
       <label>Message<textarea required rows="4"></textarea></label>
